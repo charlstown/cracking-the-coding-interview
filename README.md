@@ -10,23 +10,23 @@ Link to the book: [Cracking the Coding Interview](https://www.crackingthecodingi
 This repository contains the problems from the book that have direct application in the Python programming language.
 
 **Data structures**
-[WIP] Chapter 1. [Arrays and Strings](#1-what-is-pytemplate)
-[WIP] Chapter 2. [Linked Lists](#1-what-is-pytemplate)
-[WIP] Chapter 3. [Stacks and Queues](#1-what-is-pytemplate)
-[WIP] Chapter 4. [Trees and Graphs](#1-what-is-pytemplate)
+[WIP] Chapter 1. [Arrays and Strings](#1-what-is-pytemplate)  
+[WIP] Chapter 2. [Linked Lists](#1-what-is-pytemplate)  
+[WIP] Chapter 3. [Stacks and Queues](#1-what-is-pytemplate)  
+[WIP] Chapter 4. [Trees and Graphs](#1-what-is-pytemplate)  
 
 **Concepts and algorithms**
-[WIP] Chapter 5. [Bit Manipulation](#1-what-is-pytemplate)
-[WIP] Chapter 6. [Math and Logic Puzzles](#1-what-is-pytemplate)
-[WIP] Chapter 7. [Object-Oriented Design](#1-what-is-pytemplate)
-[WIP] Chapter 8. [Object-Oriented Design](#1-what-is-pytemplate)
-[WIP] Chapter 9. [Object-Oriented Design](#1-what-is-pytemplate)
-[WIP] Chapter 10. [Object-Oriented Design](#1-what-is-pytemplate)
-[WIP] Chapter 11. [Object-Oriented Design](#1-what-is-pytemplate)
+[WIP] Chapter 5. [Bit Manipulation](#1-what-is-pytemplate)  
+[WIP] Chapter 6. [Math and Logic Puzzles](#1-what-is-pytemplate)  
+[WIP] Chapter 7. [Object-Oriented Design](#1-what-is-pytemplate)  
+[WIP] Chapter 8. [Object-Oriented Design](#1-what-is-pytemplate)  
+[WIP] Chapter 9. [Object-Oriented Design](#1-what-is-pytemplate)  
+[WIP] Chapter 10. [Object-Oriented Design](#1-what-is-pytemplate)  
+[WIP] Chapter 11. [Object-Oriented Design](#1-what-is-pytemplate) 
 
 **Aditional review problems**
-[WIP] Chapter 16. [Moderate](#1-what-is-pytemplate)
-[WIP] Chapter 11. [Hard](#1-what-is-pytemplate)
+[WIP] Chapter 16. [Moderate](#1-what-is-pytemplate)  
+[WIP] Chapter 11. [Hard](#1-what-is-pytemplate)  
 
 
 ## 2. Installation
