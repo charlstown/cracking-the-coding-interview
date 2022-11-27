@@ -19,7 +19,30 @@ def rnd_string(length):
     return out
 
 
-def test_function(*inputs, func, show=False):
+def rnd_matrix(size: int=3):
+    """
+    Generates random matrix with the selected size m x m
+    :param size: matrix size
+    :return: matrix with the selected size
+    """
+    return [[rnd.randint(0, 9) for column in range(size)] for row in range(size)]
+
+
+def print_matrix(matrix):
+    """
+    Prints a matrix in the console
+    :param matrix: matrix to be printed
+    :return: None
+    """
+    n_borders = 7*len(matrix)
+    print('-'*n_borders)
+    for i in matrix:
+        line = str(i)[1:-1].replace(',', '\t')
+        print(line)
+    print('-'*n_borders)
+
+
+def test_function(*inputs, func, show=False, matrix=False):
     """
     Test the same function with multiple inputs
     :param inputs:
@@ -27,14 +50,19 @@ def test_function(*inputs, func, show=False):
     :param show:
     :return:
     """
-    for i in range(len(inputs)):
-        input = inputs[i]
-        output = func(*input)
-        print(f"- Test {i}: {output}")
+    for i, input in enumerate(inputs):
         if show:
-            print(f"    {input}")
+            if not matrix:
+                print(f"    {input}")
+            else:
+                print_matrix(input[0])
         else:
             pass
+        output = func(*input)
+        if not matrix:
+            print(f"- Test {i}: {output}")
+        else:
+            print_matrix(output)
 
 
 def compare_functions(*func, inpt):
