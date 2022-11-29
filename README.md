@@ -4,6 +4,8 @@ Some of the 189 problems from the book Cracking the Coding Interview 6th Edition
 
 Link to the book: [Cracking the Coding Interview](https://www.crackingthecodinginterview.com/)
 
+![CtCI Book Cover](images/ctci-cover.png)
+
 
 ## 1. Repository Contents
 
@@ -30,13 +32,28 @@ This repository contains the problems from the book that have direct application
 
 
 ## 2. Installation
-To run the problems you only need to clone this repository and run the notebook chunks and have Python 3.6 or higher. It is not necessary to install additional libraries.
+
+To run the notebooks with the coding problems you only need to clone this repository, have Python 3.6 or higher and, Jupyter notebook 6.5 or higher. It is not necessary to install additional libraries.
 
 
 ## 3. Usage
 
-Explain how the files are located and how to use them, what is helpers.
+The repository follows this tree structure directory:
 
+```
+cracking-the-coding-interview
+├── images
+│   └── ctci-cover.png
+├── notebooks
+│   ├── CtCI-01-SolutionsToArraysAndStrings.ipynb
+│   ├── helpers.py
+│   └── __pycache__
+│       └── helpers.cpython-310.pyc
+├── LICENSE
+└── README.md
+```
+
+All the problems and solutions are written in notebooks inside the */notebooks* directory. The notebooks use functions from the */helpers.py* file to test solutions or print specific structures.
 
 
 ## 4. Troubleshooting
@@ -56,6 +73,7 @@ Some extra help or clarification about the whole process. What you don't provide
 
 ## 7. Other links
 
-References, contact, or related repositories go here.
-
-
+- Link to the book: [Cracking the Coding Interview](https://www.crackingthecodinginterview.com/)
+- Link to the solutions: [CtCI 6th Edition](https://github.com/careercup/CtCI-6th-Edition)
+- About the author: [Gayle Laakmann McDowell](https://www.crackingthecodinginterview.com/author.html)
+- For more information visit: [carlosgrande.me](https://carlosgrande.me/)
