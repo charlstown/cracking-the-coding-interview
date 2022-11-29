@@ -1,7 +1,7 @@
 # cracking-the-coding-interview
 <p align="left">
-    <a href="https://www.python.org/downloads/"><img alt="Python" src="https://img.shields.io/badge/python->=v3.6-blue.svg"></a>
-    <a href="https://www.python.org/downloads/"><img alt="Python" src="https://img.shields.io/apm/l/m"></a>
+    <a href="https://www.python.org/downloads/"><img alt="Python: v3.6" src="https://img.shields.io/badge/python->=v3.6-blue.svg"></a>
+    <a href="https://opensource.org/licenses/MIT"><img alt="License: MIT" src="https://img.shields.io/badge/license-MIT-green"></a>
 </p>
 
 
