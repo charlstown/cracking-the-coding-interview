@@ -19,13 +19,16 @@ def rnd_string(length):
     return out
 
 
-def rnd_matrix(size: int=3):
+def rnd_matrix(size: int=3, y_columns: int=None, seed: int=None):
     """
     Generates random matrix with the selected size m x m
     :param size: matrix size
     :return: matrix with the selected size
     """
-    return [[rnd.randint(0, 9) for column in range(size)] for row in range(size)]
+    rnd.seed(None)
+    if y_columns == None:
+        y_columns = size
+    return [[rnd.randint(0, 9) for column in range(size)] for row in range(y_columns)]
 
 
 def print_matrix(matrix):
@@ -35,11 +38,11 @@ def print_matrix(matrix):
     :return: None
     """
     n_borders = 7*len(matrix)
-    print('-'*n_borders)
+    print('-'*5)
     for i in matrix:
         line = str(i)[1:-1].replace(',', '\t')
         print(line)
-    print('-'*n_borders)
+    print('-'*5)
 
 
 def test_function(*inputs, func, show=False, matrix=False):
