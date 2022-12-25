@@ -19,13 +19,13 @@ def rnd_string(length):
     return out
 
 
-def rnd_matrix(size: int=3, y_columns: int=None, seed: int=None):
+def rnd_matrix(size: int=3, y_columns: int=None, seed: int=0):
     """
     Generates random matrix with the selected size m x m
     :param size: matrix size
     :return: matrix with the selected size
     """
-    rnd.seed(None)
+    rnd.seed(seed)
     if y_columns == None:
         y_columns = size
     return [[rnd.randint(0, 9) for column in range(size)] for row in range(y_columns)]
