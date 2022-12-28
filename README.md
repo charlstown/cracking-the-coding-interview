@@ -10,7 +10,7 @@ Link to the book: [Cracking the Coding Interview](https://www.crackingthecodingi
 This repository contains the problems from the book that have direct application in the Python programming language.
 
 **Data structures**  
-[WIP] Chapter 1. [Arrays and Strings](#1-what-is-pytemplate)  
+Chapter 1. [Arrays and Strings](#1-what-is-pytemplate)  
 [WIP] Chapter 2. [Linked Lists](#1-what-is-pytemplate)  
 [WIP] Chapter 3. [Stacks and Queues](#1-what-is-pytemplate)  
 [WIP] Chapter 4. [Trees and Graphs](#1-what-is-pytemplate)  
